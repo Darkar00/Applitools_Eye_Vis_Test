@@ -7,4 +7,5 @@ def test_log_into_bank_account(webdriver: Chrome, eyes: Eyes) -> None:
 
   # Load the main page.
   webdriver.get("https://demo.saleor.io/default-channel")
+  #webdriver.get("https://demo.saleor.io/default-channel/categories/accessories")
   eyes.check(Target.window().fully().with_name("Main page").layout())
