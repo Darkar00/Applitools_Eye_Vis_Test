@@ -172,7 +172,7 @@ def eyes(
 
   eyes.open(
     driver=webdriver,
-    app_name='ACME Bank Web App',
+    app_name='Saleor',
     test_name=request.node.name,
     viewport_size=RectangleSize(1200, 600))
   
